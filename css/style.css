@@ -1,0 +1,196 @@
+@font-face {
+    font-family: Barrio;
+    src: url(../fonts/Barrio/barrio-regular.ttf);
+}
+
+@font-face {
+    font-family: Darumadrop;
+    src: url(../fonts/Darumadrop_One/darumadropone-regular.ttf);
+}
+
+@font-face {
+    font-family: Pixel;
+    src: url(../fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Staatliches;
+    src: url(../fonts/Staatliches/Staatliches-Regular.ttf);
+}
+
+@font-face {
+    font-family: pen;
+    src: url(../fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: beth;
+    src: url(../fonts/Beth_Ellen/BethEllen-Regular.ttf);
+}
+
+@font-face {
+    font-family: Nanum;
+    src: url(../fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf);
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    max-height: 667px;
+    max-width: 375px;
+    font-family: Nanum;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    background-size: 375px 667px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../img/achtergrond_wisselboetiek3.png);
+}
+
+header {
+    font-family: Nanum;
+    font-weight: bold;
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+main {
+    flex-grow: 1;
+    justify-content: center;
+    padding: 0.7em;
+    background-color: rgba(255, 255, 255, 0.646);
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+    background-color: rgb(242, 145, 208);
+    max-height: 667px;
+    max-width: 375px;
+    padding: 0.4em;
+    padding-bottom: 1.5em;
+}
+
+
+.teal {
+    background-color: rgb(5, 217, 178);
+    padding: 0.4em;
+    margin-top: 0.2em;
+}
+
+.orange {
+    background-color: #F24405;
+    padding: 0.4em;
+}
+
+.pink {
+    background-color: rgb(242, 145, 208);
+    padding: 0.4em;
+    margin-top: 0.2em;
+}
+
+.adres {
+    font-size: 0.7em;
+}
+
+.openingstijden {
+    font-size: 0.7em;
+}
+
+.index1 {
+    width: 80%;
+}
+
+.index2 {
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.punten {
+    margin: 1em;
+    padding: 2em;
+    list-style: disc;
+    font-size: 0.7em;
+    background-color: #F2AE2E;
+}
+
+h1 {
+    font-family: Barrio;
+}
+
+h2 {
+    margin: 0.3em;
+    font-family: Barrio;
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0.08em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.orange a:hover {
+    color: #F2AE2E;
+}
+
+.teal,
+a:hover {
+    color: rgb(50, 58, 217);
+}
+
+.pink a:hover {
+    color: #F24405;
+}
+
+section {
+    width: 100%;
+    background-color: white;
+    border-radius: 1.5em;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+
+.bar {
+    max-width: 15%;
+    margin-left: 1.4em;
+    padding: 0.2em;
+}
+
+/* 
+blue = rgb(50, 58, 217)
+pink = rgb(242, 145, 208)
+orange = F24405
+yellow = F2AE2E
+teal = 04D9B2
+background-image: url(../img/achtergrond_wisselboetiek3.png);
+*\
