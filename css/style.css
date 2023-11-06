@@ -1,50 +1,13 @@
 @font-face {
-    font-family: Barrio;
-    src: url(../fonts/Barrio/barrio-regular.ttf);
-}
-
-@font-face {
-    font-family: Darumadrop;
-    src: url(../fonts/Darumadrop_One/darumadropone-regular.ttf);
-}
-
-@font-face {
-    font-family: Pixel;
-    src: url(../fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf);
-}
-
-@font-face {
-    font-family: Staatliches;
-    src: url(../fonts/Staatliches/Staatliches-Regular.ttf);
-}
-
-@font-face {
-    font-family: pen;
-    src: url(../fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf);
-}
-
-@font-face {
-    font-family: beth;
-    src: url(../fonts/Beth_Ellen/BethEllen-Regular.ttf);
-}
-
-@font-face {
-    font-family: Nanum;
-    src: url(../fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf);
-}
-@font-face {
     font-family: Bebas;
     src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
 @font-face {
-    font-family: Phudu;
-    src: url(../fonts/Phudu/Phudu-VariableFont_wght.ttf);
-}
-@font-face {
-    font-family: comfortaa;
+    font-family: Josefin;
     src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
 }
+
 img,
 video {
     max-width: 100%;
@@ -58,13 +21,13 @@ video {
 body {
     max-height: 667px;
     max-width: 375px;
-    font-family: comfortaa;
+    font-family: Josefin;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     background-size: 375px 667px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;  
+    min-height: 100vh;
     background-image: url(../img/achtergrond_wisselboetiek_gradient.png);
 }
 
@@ -137,15 +100,7 @@ footer {
     max-width: 100%;
 }
 
-.punten {
-    margin: 1em;
-  margin-top: 0em;
-    padding: 2em;
-    padding-top: 1em;
-    list-style: disc;
-    font-size: 0.7em;
-    background-color: #F2AE2E;
-}
+
 
 h1 {
     font-family: Bebas;
@@ -202,29 +157,47 @@ a:hover {
     margin-left: 1.4em;
     padding: 0.2em;
 }
-.duurzaam {
+
+.artikel {
     background-color: rgba(255, 255, 255, 0.75);
-padding: 1.5em;
-padding-bottom: 2em;
-margin-bottom: 2em;
+    padding: 1.5em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
 
 }
-.duurzaam h1{
+
+.artikel h1 {
     font-size: 2em;
 }
-.duurzaam h2 {
+
+.artikel h2 {
     margin: 0em;
 }
 
-.inclusief {
-display: flex;
-flex-direction: column;
-align-items: end;
-background-color: rgba(255, 255, 255, 0.75);
+.geel {
+    background-color: rgba(243, 161, 214, 0.85);
     padding: 1.5em;
-padding-bottom: 2em;
-margin-bottom: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
 
+}
+
+.punten {
+    margin: 1em;
+    margin-top: 0em;
+    padding: 1.5em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    list-style: disc;
+    font-size: 0.7em;
+    background-color: rgba(242, 173, 44, 0.90);
+}
+
+.werkt {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 1.5em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 
