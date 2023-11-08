@@ -45,15 +45,12 @@ main {
 }
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     width: 100vw;
     background-color: rgba(255, 255, 255, 0.75);
     max-height: 667px;
     max-width: 375px;
     padding: 0.4em;
-    padding-bottom: 1.5em;
+    padding-top: 0.6em;
 }
 
 
@@ -75,14 +72,6 @@ footer {
     padding: 0.4em;
     margin-top: 0.2em;
     border-radius: 0.8em;
-}
-
-.adres {
-    font-size: 0.7em;
-}
-
-.openingstijden {
-    font-size: 0.7em;
 }
 
 .index1 {
@@ -114,7 +103,9 @@ h2 {
 
 h3 {
     font-size: 1.5em;
+    padding-top: 1em;
     font-family: Bebas;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 ul {
@@ -174,14 +165,6 @@ a:hover {
     margin: 0em;
 }
 
-.geel {
-    background-color: rgba(243, 161, 214, 0.85);
-    padding: 1.5em;
-    padding-bottom: 2em;
-    margin-bottom: 2em;
-
-}
-
 .punten {
     margin: 1em;
     margin-top: 0em;
@@ -199,7 +182,14 @@ a:hover {
     padding-bottom: 2em;
     margin-bottom: 2em;
 }
-
+.rotate {
+ animation: mymove 5s;
+ animation-iteration-count: 1;
+}
+ 
+@keyframes mymove {
+  50% {transform: rotate(180deg);}
+}
 
 /* 
 blue = rgb(50, 58, 217)
